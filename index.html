@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Base Apparel - Coming Soon</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/js/script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <!-- Companie Logo -->
+      <section class="logo">
+        <img src="assets/images/logo.svg" />
+      </section>
+
+      <!-- Text -->
+      <section class="text">
+        <h1><span>WE'RE</span>COMING SOON</h1>
+        <p>
+          Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our
+          launch deals.
+        </p>
+
+        <!-- E-mail input -->
+        <form>
+          <div class="input-container">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email Address"
+            />
+            <div class="icon">
+              <img src="assets/images/icon-error.svg" alt="error icon" />
+            </div>
+            <button type="submit" class="animate">
+              <img src="assets/images/icon-arrow.svg" alt="arrow icon" />
+            </button>
+          </div>
+          <div class="error"><p>Please provide a valid email</p></div>
+          <div class="valid"><p>Thanks for your subscription!</p></div>
+        </form>
+      </section>
+
+      <!-- Model pic -->
+      <section class="right">
+        <img src="assets/images/hero-desktop.jpg" class="desktop-image" />
+        <img src="assets/images/hero-mobile.jpg" class="mobile-image" />
+      </section>
+    </main>
+  </body>
+</html>
