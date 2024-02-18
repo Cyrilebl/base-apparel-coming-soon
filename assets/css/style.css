@@ -23,7 +23,7 @@ body {
 
 main {
   display: grid;
-  grid-template-columns: 65% 35%;
+  grid-template-columns: 63% 37%;
   grid-template-rows: 100px 1fr;
   grid-template-areas:
     "logo right"
@@ -96,6 +96,7 @@ main {
 
 .input-container button {
   background: linear-gradient(to right, var(--button));
+  box-shadow: 0px 0px 10px var(--text);
   width: 100px;
   height: 55px;
   border: 0px;
@@ -107,7 +108,6 @@ main {
 
 .animate:active {
   background: hsl(0, 80%, 86%);
-  box-shadow: 0px 0px 10px var(--text);
   transform: scale(1.02);
 }
 
@@ -162,8 +162,6 @@ main {
 }
 
 .right img {
-  height: 100%;
-  width: 100%;
   object-fit: cover;
 }
 
